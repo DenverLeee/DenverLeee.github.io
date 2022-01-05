@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+<!--       定义在头文件title中 -->
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+<!-- 		  头文件中包含 layout：default的话，接下来的html将会包含在content中 -->
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:denverleejy@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/denverleee">github.com/hankquinlan</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
