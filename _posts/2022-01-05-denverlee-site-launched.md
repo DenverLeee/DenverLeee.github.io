@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DenverLee, Launches Site"
+title: "DenverLee-Launches Site"
 date: 2022-01-05
 ---
 
