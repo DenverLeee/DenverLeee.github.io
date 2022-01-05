@@ -4,6 +4,7 @@ body {
 }
 
 nav ul, footer ul {
+/*     按顺序，如果第一个不行就下一个 */
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -11,32 +12,43 @@ nav ul, footer ul {
 }
 
 nav ul li, footer ul li {
-/*  实现把所有 li 放在同一行（内联元素）  */
+/*     实现把所有 li 放在同一行（内联元素） */
     display: inline;  
     margin-right: 20px;
 }
 
 a {
+/*     text-decoration 属性规定添加到文本的修饰，颜色由color设置 */
     text-decoration: none;
     color: #999;
 }
+
+/* 鼠标悬停的设计 */
 a:hover {
+/*     闪烁悬停链接 */
+/*     text-decoration: blink; */
+/*     显示下划线 */
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
+/*     设置边界（一条线） */
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
+/* 定义class name = post 的ul 和 li */
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
