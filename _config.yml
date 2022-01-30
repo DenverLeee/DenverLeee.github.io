@@ -182,6 +182,7 @@ analytics:
 markdown    : kramdown
 highlighter : rouge
 permalink   : date
+## permalink: /blog/:year/:month/:day/:title
 
 exclude:
   - CHANGELOG.md
